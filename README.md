@@ -12,7 +12,7 @@ net install scheme-smooth, from("https://raw.githubusercontent.com/jandrewsmith0
 To see this scheme in action, copy and paste the following into the Stata command window:
 ```
 sysuse auto, clear
-twoway scatter mpg price, scheme(smooth)
+twoway (scatter mpg price) (qfit mpg price), scheme(smooth)
 ```
 
 # Author

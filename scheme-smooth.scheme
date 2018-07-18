@@ -1,0 +1,144 @@
+*  smooth.scheme
+
+*! Version 1.0  18jul2018
+*! Author: Jonathan Andrew Smith
+*! Date: 18 July 2018
+
+* ------------------------------------------------------------------------------
+* ------------------------------------------------------------------------------
+* ------------------------------------------------------------------------------
+
+* Based on the official Stata scheme s2color
+#include s2color
+
+* The number of times this will cycle
+numstyle pcycle 15
+
+* --- Background and foreground ------------------------------------------------
+
+* Background
+color background white
+
+* Foreground
+color foreground gs4
+
+* --- Axes and ticks -----------------------------------------------------------
+
+* Axis/tick line widths
+linewidth axisline vthin
+
+* Axis/tick colors
+color axisline gs4
+color tick gs4
+color tick_label black
+color minortick gs4
+
+* Tick label font size
+gsize tick_label small
+gsize minortick_label vsmall
+
+* Tick label angle
+anglestyle vertical_tick horizontal
+
+* Axis title font size
+gsize axis_title small
+
+* --- Added lines --------------------------------------------------------------
+	
+color xyline black
+linewidth xyline thin
+linepattern xyline dash
+
+* --- Added text ---------------------------------------------------------------
+
+gsize text_option small
+color text_option black
+yesno text_option no
+
+* --- Legend -------------------------------------------------------------------
+
+color legend_line gs4
+numstyle legend_rows 1
+gsize key_label small
+
+* --- Markers ------------------------------------------------------------------
+
+* Marker colors
+color p1	gs10
+color p2	midblue
+color p3	navy
+color p4	ltblue
+color p5	blue
+color p6	ltbluishgray
+
+* Marker symbols
+symbol p     circle
+* symbol p1     circle
+* symbol p2     diamond
+* symbol p3     square
+* symbol p4     triangle
+* symbol p5     x
+
+* Symbol sizes
+symbolsize p vsmall
+* symbolsize p4 small
+* symbolsize p5 small
+
+* --- Lines --------------------------------------------------------------------
+
+* Line width
+linewidth p thin
+
+* --- Titles -------------------------------------------------------------------
+
+* Text sizes
+gsize heading		medium
+gsize subheading	small
+gsize body 			small
+
+* Text colors
+color heading		black
+color subheading	black
+color body 			black
+
+
+linestyle subtitle none
+
+* --- Textboxes ----------------------------------------------------------------
+
+color textbox none
+yesno textbox no
+linestyle textbox none
+
+* ------------------------------------------------------------------------------
+* --- Specific plots -----------------------------------------------------------
+* ------------------------------------------------------------------------------
+
+* --- Histograms ---------------------------------------------------------------
+
+color histogram gs10
+color histogram_line gs10
+ticksetstyle major_vert_nolabel
+
+* --- Confidence intervals -----------------------------------------------------
+
+color ci_area none
+linepattern ci_area thin
+linepattern ci_area dash
+
+* --- Matrix Graphs ------------------------------------------------------------
+
+* Diagonal entries
+gsize matrix_label small
+color matrix_label black
+color mat_label_box white
+
+* Markers
+symbol matrix circle
+symbolsize matrix vsmall
+color matrix gs10
+color matrixmarkline gs10
+
+* --- By Graphs ----------------------------------------------------------------
+
+bygraphstyle bygraph default

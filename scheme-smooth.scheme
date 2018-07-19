@@ -62,6 +62,8 @@ yesno text_option no
 color legend_line gs4
 numstyle legend_rows 1
 gsize key_label small
+gsize legend_key_xsize small
+gsize legend_key_ysize small
 
 * --- Markers ------------------------------------------------------------------
 

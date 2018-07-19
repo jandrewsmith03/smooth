@@ -18,6 +18,8 @@ numstyle pcycle 15
 
 * Background
 color background white
+linewidth background thin
+linestyle background none
 
 * Foreground
 color foreground gs4
@@ -101,13 +103,9 @@ color heading		black
 color subheading	black
 color body 			black
 
-
-linestyle subtitle none
-
 * --- Textboxes ----------------------------------------------------------------
 
-color textbox none
-yesno textbox no
+color textbox white
 linestyle textbox none
 
 * ------------------------------------------------------------------------------
@@ -141,4 +139,4 @@ color matrixmarkline gs10
 
 * --- By Graphs ----------------------------------------------------------------
 
-bygraphstyle bygraph default
+bygraphstyle bygraph rescale

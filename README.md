@@ -16,6 +16,6 @@ twoway (scatter mpg price) (qfit mpg price), scheme(smooth)
 ```
 
 ## Author
-[Jonathan "Andrew" Smith](http://www.jonandrewsmith.com/)
+[Jonathan "Andrew" Smith](http://www.jasmiths.com/)
 <br>University of Chicago
 <br>Email: jas3@uchicago.edu

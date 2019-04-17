@@ -73,7 +73,7 @@ color p2	midblue
 color p3	navy
 color p4	ltblue
 color p5	blue
-color p6	ltbluishgray
+color p6	gs7
 
 * Marker symbols
 symbol p     circle

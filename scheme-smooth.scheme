@@ -1,6 +1,6 @@
 *  smooth.scheme
 
-*! Version 1.0  18jul2018
+*! Version 2.0  30jul2019
 *! Author: Jonathan Andrew Smith
 *! Date: 18 July 2018
 
@@ -71,9 +71,8 @@ gsize legend_key_ysize small
 color p1	gs10
 color p2	midblue
 color p3	navy
-color p4	ltblue
-color p5	blue
-color p6	gs7
+color p4	blue
+color p5	gs7
 
 * Marker symbols
 symbol p     circle

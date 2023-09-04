@@ -9,7 +9,7 @@
 * ------------------------------------------------------------------------------
 
 * Based on the official Stata scheme s2color
-#include s2color
+#include s1mono
 
 * The number of times this will cycle
 numstyle pcycle 15
